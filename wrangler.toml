@@ -1,0 +1,11 @@
+name = "roblox-deletion-queue"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[observability.logs]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "roblox-deletion-queue"                       # database name
+database_id = "b5128861-255a-4ef7-970d-822dbfaf0a42" # database id  
